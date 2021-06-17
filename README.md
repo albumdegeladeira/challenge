@@ -30,9 +30,9 @@ Bônus se usar: styled-components, typescript
 ### Backend
 O backend deve ser uma api simples que consiste em duas rotas:
 
-- /products provê a lista de produtos disponíveis para serem exibidos em /produtos no frontend
+- /products provê a lista de produtos disponíveis para serem exibidos em /produtos no frontend. Os dados podem ser definidos estaticamente, sem necessidade de consumir de um banco de dados.
 - /shipping:cep
-    - recebe o cep e retorna o prazo de entrega em dias e o custo de envio para sedex (usar api dos correios)
+    - recebe o cep e retorna o prazo de entrega em dias e o custo de envio para sedex (Pode fazer funcionar com apenas alguns valores fixos, mas usar a api dos correios seria um bônus interessante)
     - fatores como peso, tamanho e quantidade de produtos não devem ser considerados
 
 Bônus se usar: express
